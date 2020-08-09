@@ -1,0 +1,56 @@
+.userprofilebackimg {
+  width: 100%;
+  height: 250px;
+  user-select: none;
+  font-weight: bold;
+  color: white;
+  font-size: 5vw;
+  background-image: url(/images/restaurant/2.jpg);
+  background-size: 100% 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userprofiledescripheading {
+  font-size: 1.2em;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.userprofiledescrip {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.user_about {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.user_about_ul {
+  list-style: none;
+}
+.user_about_ul li {
+  padding: 10px;
+}
+.order_history {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+.no_item5 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}

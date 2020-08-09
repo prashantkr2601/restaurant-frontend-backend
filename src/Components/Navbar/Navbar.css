@@ -1,0 +1,89 @@
+.nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    -90deg,
+    rgb(235, 210, 210),
+    rgb(199, 241, 199)
+  );
+}
+.navul {
+  list-style: none;
+  display: flex;
+  user-select: none;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.navli {
+  margin: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: green;
+}
+
+.navli:hover {
+  background-color: white;
+  color: green;
+}
+
+.navliloginimag {
+  margin: 5px;
+  color: green;
+  cursor: pointer;
+  font-size: 2.6em;
+}
+
+.navliloginimag:hover {
+  color: white;
+}
+.navofferimag {
+  color: green;
+  cursor: pointer;
+  font-size: 3em;
+}
+
+.navofferimag:hover {
+  color: white;
+}
+
+.tooltip_offers {
+  margin: 5px;
+  font-size: 0.4em;
+  font-weight: bold;
+  color: green;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+.navofferimag:hover .tooltip_offers {
+  visibility: visible;
+}
+
+.tooltip_profile {
+  margin: 5px;
+  font-size: 0.4em;
+  height: fit-content;
+  font-weight: bold;
+  color: green;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+}
+.navliloginimag:hover .tooltip_profile {
+  visibility: visible;
+}
+
+.navul :nth-child(2) {
+  margin-left: auto;
+}

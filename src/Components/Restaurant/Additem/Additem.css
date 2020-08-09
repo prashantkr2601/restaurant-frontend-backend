@@ -1,0 +1,96 @@
+.Additemmain {
+  text-align: center;
+  margin: 20px;
+}
+.Additemdiv {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  color: white;
+  font-size: 4em;
+  font-weight: 700;
+
+  background-image: linear-gradient(
+    -90deg,
+    rgb(235, 210, 210),
+    rgb(199, 241, 199)
+  );
+}
+.addcircle {
+  border: 4px solid green;
+  border-radius: 100%;
+  font-size: 2em;
+}
+
+.Additemdiv:hover {
+  color: green;
+  border-color: white;
+}
+
+.addnewitemformmain {
+  text-align: center;
+}
+.addnewitemform {
+  display: inline-block;
+  width: 350px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    -90deg,
+    rgb(235, 210, 210),
+    rgb(199, 241, 199)
+  );
+}
+.addnewitemformul {
+  list-style: none;
+  padding: 5px;
+}
+.addnewitemformul li {
+  padding: 5px;
+}
+.addnewitemformulinput {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+}
+.itemimage {
+  margin-left: 46px;
+  margin-top: -1px;
+  text-align: center;
+  font-weight: bold;
+  width: 210px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.addnewitemformulinputreq {
+  color: red;
+}
+.addnewitemformulbutton {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+.addnewitemformulbutton:hover {
+  color: green;
+  background-color: white;
+}
+
+.Dispalyalliteminresprofile {
+  margin-left: -35px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+.homePageImage {
+  margin: 0;
+  padding: 0;
+  margin-top: -18px;
+  background-image: url("/images/homePage.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  max-height: fit-content;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}

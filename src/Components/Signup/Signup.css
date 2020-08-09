@@ -1,0 +1,95 @@
+.resformmain {
+  text-align: center;
+
+  min-height: 100vh;
+  max-height: auto;
+  background-image: linear-gradient(
+    -90deg,
+    rgb(235, 210, 210),
+    rgb(199, 241, 199)
+  );
+  background-size: 100% 100%;
+  padding-bottom: 50px;
+}
+.resform {
+  display: inline-block;
+  width: 350px;
+  border-radius: 20px;
+  border: 10px solid white;
+}
+.resformul {
+  list-style: none;
+  padding: 5px;
+}
+.resformul li {
+  padding: 5px;
+}
+.resformulinput {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+}
+.resformulinputtextarea {
+  padding: 10px;
+  display: flexbox;
+  text-align: start;
+  height: 100px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+}
+.itemimage {
+  margin-left: 46px;
+  margin-top: -1px;
+  text-align: center;
+  font-weight: bold;
+  width: 210px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.resformulinputreq {
+  color: red;
+}
+.resformulbutton {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 1.2em;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+.resformulbutton:hover {
+  color: green;
+  background-color: white;
+}
+.signupnotfound {
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+}
+.signuploginbtn {
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 1px;
+  outline: none;
+  border: none;
+  /* background-color: white; */
+  color: green;
+}
+.signuploginbtn:hover {
+  /* background-color: green; */
+  color: red;
+}

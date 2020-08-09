@@ -1,0 +1,14 @@
+.homepage_view_menu {
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+}
+.homepage_view_menu:hover {
+  background-color: white;
+  color: green;
+}

@@ -1,0 +1,53 @@
+.resprofilebackimg {
+  width: 100%;
+  height: 250px;
+  user-select: none;
+  font-weight: bold;
+  color: white;
+  font-size: 5vw;
+  background-image: url(/images/restaurant/2.jpg);
+  background-size: 100% 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resprofiledescripheading {
+  font-size: 1.2em;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.resprofiledescrip {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.res_about {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.res_about_ul {
+  list-style: none;
+}
+.res_about_ul li {
+  padding: 10px;
+}
+.res_about_ul li span {
+  background-color: green;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.order_history {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}

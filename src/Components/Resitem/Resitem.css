@@ -1,0 +1,41 @@
+.resitembackimg {
+  height: 250px;
+  user-select: none;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 5vw;
+  background-image: url(/images/restaurant/2.jpg);
+  background-size: 100% 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.resitemdescripheading {
+  font-size: 1.2em;
+  background-color: rgb(53, 165, 53);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.resitemdescrip {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.Dispalyalliteminresprofile {
+  margin-left: -35px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.without_heading_res_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
